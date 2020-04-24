@@ -8,7 +8,7 @@ public interface SpaceShip {
 
   /**
   * Fires the laser or lasers of the ship
-  *
+  * HELLO THIS IS BRANCH B
   * @param firingMode how many lasers to fire
   * @return was the firing successful
   */
