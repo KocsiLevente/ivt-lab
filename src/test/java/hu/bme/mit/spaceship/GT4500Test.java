@@ -106,7 +106,6 @@ public class GT4500Test {
 
     //Act
     testShip.fireTorpedo(FiringMode.SINGLE);
-    testShip.fireTorpedo(FiringMode.SINGLE);
     boolean result = testShip.fireTorpedo(FiringMode.SINGLE);
 
     //Assert & Verify
