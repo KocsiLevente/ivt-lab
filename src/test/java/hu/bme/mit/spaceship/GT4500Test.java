@@ -20,7 +20,7 @@ public class GT4500Test {
   @Test
   public void fireTorpedo_Single_Success(){
     // Arrange
-    when(mockDA.getTorpedoCount()).thenReturn(10);
+    when(mockDA.isEmpty()).thenReturn(false);
 
     // Act
     boolean result = ship.fireTorpedo(FiringMode.SINGLE);
@@ -30,9 +30,9 @@ public class GT4500Test {
   }
 
   @Test
-  public void fireTorpedo_All_Success(){
+  public void fireTorpedo_All_Success() {
     // Arrange
-    when(mockDA.getTorpedoCount()).thenReturn(10);
+    when(mockDA.isEmpty()).thenReturn(false);
 
     // Act
     boolean result = ship.fireTorpedo(FiringMode.ALL);
